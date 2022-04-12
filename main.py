@@ -92,7 +92,7 @@ def frequency_calculation(input_file):
 
     plt.plot(fft)
     plt.plot(max_index, fft[max_index], "x")
-    # plt.show()
+    plt.show()
 
 
 if __name__ == "__main__":
